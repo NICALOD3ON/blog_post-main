@@ -1,5 +1,10 @@
-# A1: Cute! Documentation
-#### Published 2023-03-31
+---
+title: A1 Cute! Documentation
+published_at: 2023-03-31
+snippet: My Assignment One Documentation
+disable_html_sanitization: true
+---
+
 ### Introduction 
 This first creative coding assignment requres us to explore the conventions of a 'Cute!' creative genre in p5. However, this first poses the question of: what makes a creative coding piece 'Cute'? This is something I hope to explore and iterate on upon further research and implementation of practice. I will also look to the works of artists such as Rafaël Rozendaal and course content to build my knowledge further.
 

@@ -1,5 +1,9 @@
-# Homework Week 3
-### 2024-03-20
+---
+title: Week 6
+published_at: 2024-04-1
+snippet: c2.js Examples
+disable_html_sanitization: true
+---
 
 Before I begin with the documentation of Homework Week 3, I will first document my notes from todays session in my own words and understanding.
 

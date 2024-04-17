@@ -1,5 +1,9 @@
-# Homework Week 2
-### 2024-03-13
+---
+title: Week 6
+published_at: 2024-04-1
+snippet: c2.js Examples
+disable_html_sanitization: true
+---
 
 Welcome to my Week 2 documentation! Before I get into my homework task, I want to utilise this space fot further note taking and learning. We took the time today to 
 

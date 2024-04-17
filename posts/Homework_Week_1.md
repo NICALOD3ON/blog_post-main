@@ -1,5 +1,10 @@
-# Homework Week 1
-### 2024-03-08
+---
+title: Week 6
+published_at: 2024-04-1
+snippet: c2.js Examples
+disable_html_sanitization: true
+---
+
 In our first session of week 1, we experimented with our newly developed skills in p5 to build a creative piece with code. Through utilising squares, colours, and forms of movement, we were able to create something fascinating!
 
 For this weeks homework, our first goal is to try learn how to create a grid based on the skills we learnt this week.

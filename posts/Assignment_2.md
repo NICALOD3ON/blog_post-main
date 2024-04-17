@@ -1,6 +1,6 @@
 ---
-title: Week 6
-published_at: 2024-04-1
-snippet: c2.js Examples
+title: A2 Chaotic! Documentation
+published_at: 2023-03-31
+snippet: My Assignment Two Documentation
 disable_html_sanitization: true
 ---

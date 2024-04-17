@@ -1,17 +1,20 @@
 ---
-title: Week 6
+title: Week 6 
 published_at: 2024-04-1
-snippet: c2.js Examples
+snippet: Working with c2.examples!
 disable_html_sanitization: true
 ---
 
 ###Class Notes 
 script tag - this leads to a file path. the '..' means go out of the current folder, to go into a different folder.
 
-<script src="/scripts/cs.min.js"></script>
+<script src="/scripts/c2.js></script>
 <canvas id="c2"/>
 
 <script>
+
+//Created by Ren Yuan
+
 
 const renderer = new c2.Renderer(document.getElementById('c2'));
 resize();
@@ -26,104 +29,79 @@ renderer.textBaseline('top');
 let random = new c2.Random();
 let color = c2.Color.hsl(random.next(0, 30), random.next(30, 60), 60);
 
+
 let points = [];
-for(let i=0; i<200; i++){
-    let x = random.next(-renderer.width/2, renderer.width/2);
-    let y = random.next(-renderer.height/2, renderer.height/2);
+
+for(let i=0; i<10; i++){
+    let x = random.next(renderer.width);
+    let y = random.next(renderer.height);
     points[i] = new c2.Point(x, y);
 }
 
 
-let a = 2, b = 1;
-let f = (x) => a * x + b;
-let classify = (x, y) => y < f(x) ? 0:1;
-
-
-let neuralNet = new c2.NeuralNet(2, 1, 0, 0);
-let n = neuralNet.weights().length;
-
-
 function fitness(chromosome){
     let score = 0;
-
-    neuralNet.weights(chromosome.genes);
-    for (let i = 0; i < points.length; i++) {
-        let p = points[i];
-        let output = neuralNet.feedforward([p.x, p.y]);
-        let answer = classify(p.x, p.y);
-        if((output[0]<.5) == (answer==0)) score++;
+    for (let i = 0; i < chromosome.genes.length; i++) {
+        let p1 = points[chromosome.genes[i]];
+        let p2 = points[chromosome.genes[(i+1)%chromosome.genes.length]];
+        score += p1.distance(p2);
     }
-    
-    chromosome.fitness = score/points.length;
+    score = 1/score;
+
+    chromosome.fitness = score;
 }
 
+
 let chromosomes = [];
-for(let i=0; i<10; i++) {
+for(let i=0; i<100; i++) {
     let c = new c2.Chromosome();
-    c.initFloat(n, -1, 1);
+    c.initPermutation(points.length);
     chromosomes.push(c);
 }
 
-let p = new c2.Population(chromosomes, .9, .01, fitness);
-p.setSelection('tournament', 5);
-p.setCrossover('two_point');
-c2.Mutation.maxDeviation = .1;
-p.setMutation('deviate');
-
+let p = new c2.Population(chromosomes, .7, .1, fitness);
+p.setElitism(2);
+p.setCrossover('pmx');
+p.setMutation('exchange');
 
 
 
 renderer.draw(() => {
-	renderer.clear();
-
-
-	let info = p.fitness();
-    let best = info.bestChromosome;
-    neuralNet.weights(best.genes);
-    let weights = neuralNet.weights();
-
+    renderer.clear();
     
-    renderer.save();
-    renderer.translate(renderer.width/2, renderer.height/2);
+    let info = p.fitness();
 
-    let x1 = -renderer.width/2;
-    let y1 = -(weights[2] + weights[0]*x1)/weights[1];
-    let x2 = renderer.width/2;
-    let y2 = -(weights[2] + weights[0]*x2)/weights[1];
+    let best = info.bestChromosome;
 
     renderer.stroke('#333333');
     renderer.lineWidth(1);
     renderer.fill(color);
-    renderer.quad(x1, y1, x2, y2, renderer.width/2, renderer.height/2, renderer.width/2, -renderer.height/2);
-
-    for (let i = 0; i < points.length; i++) {
-        let p = points[i];
-
-        renderer.stroke('#333333');
-        renderer.fill(false);
-        if(classify(p.x, p.y)<.5) {
-            renderer.lineWidth(5);
-            renderer.point(p);
-            
-        }else {
-            renderer.lineWidth(2);
-            renderer.circle(p.x, p.y, 3);
-        }
+    renderer.beginPath();
+    for (let i = 0; i < best.genes.length; i++) {
+        let p = points[best.genes[i]];
+        renderer.lineTo(p.x, p.y);
     }
+    renderer.endPath(true);
 
-    renderer.restore();
-
+    
+    for(let i=0; i<points.length; i++){
+        renderer.stroke('#333333');
+        renderer.lineWidth(5);
+        renderer.point(points[i]);
+    }
 
     let tx = 20;
     let ty = 20;
     renderer.stroke(false);
     renderer.fill('#333333'); 
     renderer.text('generation ' + info.generation, tx, ty);
-    renderer.text('best fitness ' + info.bestFitness.toFixed(2), tx, ty+15);
-    renderer.text('worst fitness ' + info.worstFitness.toFixed(2), tx, ty+30);
-    renderer.text('average fitness ' + info.averageFitness.toFixed(2), tx, ty+45);
+    renderer.text('best fitness ' + info.bestFitness.toFixed(4), tx, ty+15);
+    renderer.text('worst fitness ' + info.worstFitness.toFixed(4), tx, ty+30);
+    renderer.text('average fitness ' + info.averageFitness.toFixed(4), tx, ty+45);
 
-    if(info.bestFitness != 1) p.reproduction();
+
+    if(info.generation < 100) p.reproduction();
+    
 });
 
 

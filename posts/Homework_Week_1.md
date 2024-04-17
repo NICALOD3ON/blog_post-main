@@ -1,7 +1,7 @@
 ---
-title: Week 6
+title: Week 1 
 published_at: 2024-04-1
-snippet: c2.js Examples
+snippet: Attempting Grids in p5
 disable_html_sanitization: true
 ---
 

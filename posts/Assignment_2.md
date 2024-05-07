@@ -1,6 +1,6 @@
 ---
 title: A2 Chaotic! Documentation
-published_at: 2023-03-31
+published_at: 2023-03-3
 snippet: My Assignment Two Documentation
 disable_html_sanitization: true
 ---
@@ -19,3 +19,45 @@ When I interpret this into my own words, I see the 'zany' easthetic as one that 
 Below depicts one of the first inspirational pieces for me. Created by William Latham, a creative technologist, the work presents itself with jarring shape and textures. It seems course and sharp, as if it were a symbol for pressure, angst, and aggression. However, the negative space affectively resonates with me. It seems that behind the toughness, there is a lonesome void.
 
 ![Alt text](<../static/A2/art1.png>)
+
+### Development & Iteration
+
+```ps
+function setup() {
+  // Sets canvas to fill browser screen
+      createCanvas(displayWidth, displayHeight);
+}
+
+function draw() {
+  
+  background(0);
+  // Set stroke color to black
+  stroke(255); 
+
+  // Draw the initial radial fractal pattern
+  drawRadialFractal(width / 2, height / 2, 150, 4);
+}
+
+function drawRadialFractal(x, y, length, depth) {
+  if (depth === 1) {
+    // Draws a short line
+    // Generates random angles in variation
+    let angle = random(TWO_PI); 
+    let x2 = x + cos(angle) * length;
+    let y2 = y + sin(angle) * length;
+    //change later to x2
+    line(x, y, x, y2);
+  } else {
+    // Recursion to draw six lines in a radial pattern
+    for (let i = 0; i < 6; i++) {
+      let angle = (i * PI) / 3;
+      let x2 = x + cos(angle) * length;
+      let y2 = y + sin(angle) * length;
+
+      // Recursively draw each line
+      // Determines the radius (size of fractal group)
+      drawRadialFractal(x2, y2, length * 0.8, depth - 1);
+    }
+  }
+}
+```

@@ -1,6 +1,6 @@
 ---
 title: A1 Cute! Documentation
-published_at: 2023-03-31
+published_at: 2023-03-2
 snippet: My Assignment One Documentation
 disable_html_sanitization: true
 ---

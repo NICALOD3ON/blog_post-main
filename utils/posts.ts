@@ -17,7 +17,7 @@ export async function getPosts(): Promise<Post[]> {
   const files = Deno.readDir(DIRECTORY);
   const promises = [];
   for await (const file of files) {
-    if (file.name.startsWith(".")) continue; //skip hidden
+    if (file.name.startsWith(".")) continue; //skip hidden files like .DS_Store
     const slug = file.name.replace(".md", "");
     promises.push(getPost(slug));
   }

@@ -15,4 +15,7 @@ When I interpret this into my own words, I see the 'zany' easthetic as one that 
 
 ### Looking at Inspirational Artists & Works
 
+####William Latham (Untitled) N.A
+Below depicts one of the first inspirational pieces for me. Created by William Latham, a creative technologist, the work presents itself with jarring shape and textures. It seems course and sharp, as if it were a symbol for pressure, angst, and aggression. However, the negative space affectively resonates with me. It seems that behind the toughness, there is a lonesome void.
+
 ![Alt text](<../static/A2/art1.png>)

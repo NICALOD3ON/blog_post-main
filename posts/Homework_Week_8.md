@@ -1,6 +1,6 @@
 ---
 title: Week 8 
-published_at: 2024-05-5
+published_at: 2024-05-1
 snippet: Communities of Practice
 disable_html_sanitization: true
 ---
@@ -32,5 +32,10 @@ HOw can I integrate these thoughts into Assignment Three? What is my drive? What
 - What was the actual outcome?
 - WHat was interesting about the experience?
 
-A goal for myself in Assignment 3 is to tail into my interests and show that through my work. I also want to 
+### Homework Week 8
+Finish & submit AT2
+Document your creative process and post to your blog, along with a discussion explaining:
+which artists / particular works your submission responds to
+what techniques you used to achieve a zany / chaotic aesthetic
+
 

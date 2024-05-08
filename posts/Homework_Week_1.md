@@ -1,6 +1,6 @@
 ---
 title: Week 1 
-published_at: 2024-04-1
+published_at: 2024-03-13
 snippet: Attempting Grids in p5
 disable_html_sanitization: true
 ---

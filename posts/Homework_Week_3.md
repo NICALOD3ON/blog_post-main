@@ -1,6 +1,6 @@
 ---
 title: Week 3 
-published_at: 2024-04-1
+published_at: 2024-03-27
 snippet: Effective Complexity and further Research
 disable_html_sanitization: true
 ---

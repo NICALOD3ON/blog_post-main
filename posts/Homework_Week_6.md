@@ -1,6 +1,6 @@
 ---
 title: Week 6 
-published_at: 2024-04-1
+published_at: 2024-04-17
 snippet: Working with c2.examples!
 disable_html_sanitization: true
 ---

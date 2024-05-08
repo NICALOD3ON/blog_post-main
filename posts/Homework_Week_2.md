@@ -1,6 +1,6 @@
 ---
 title: Week 2 
-published_at: 2024-04-1
+published_at: 2024-03-20
 snippet: Experimenting with Fallers in p5
 disable_html_sanitization: true
 ---

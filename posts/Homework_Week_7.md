@@ -1,5 +1,5 @@
 ---
-title: Week 5 
+title: Week 7
 published_at: 2024-05-1
 snippet: Investigating readings on Glitch Art
 disable_html_sanitization: true

@@ -11,6 +11,7 @@ disable_html_sanitization: true
 
 ###Can this method be used to maximize chaos?  How might you use it in your A2?
 
+```html
 <html>
 <head>
 	<script type="application/javascript">
@@ -109,3 +110,4 @@ else { ctx.fillStyle="#0000FF"; color="#0000FF"; }
 	<input type="range" min="1" max="7" step="1" value="1"
 	oninput="showVal(this.value)" onchange="showVal(this.value)">
 </html>
+```

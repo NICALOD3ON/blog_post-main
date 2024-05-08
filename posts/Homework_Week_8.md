@@ -1,7 +1,7 @@
 ---
 title: Week 8 
 published_at: 2024-05-1
-snippet: Communities of Practice
+snippet: Discussig the idea of Communities of Practice
 disable_html_sanitization: true
 ---
 
@@ -12,10 +12,13 @@ This is a structure. There is an apprentice and a master, where the apprentices'
 - Lave, J., & Wenger, E. (1991). Situated Learning: Legitimate Peripheral Participtation.
 
 ## The Domain
-An identity defined by a shared domain of interest.
+An identity defined by a shared domain of interest. For example, this could be a community of coding lovers, or this could be a specific place like a classroom.
 
 ## Repertoire
-They develop shared experiences, stories, tools ways of addressing recurring problems - in short, a shared practice. This comes to play with the idea of shared values.
+They develop shared experiences, stories, tools ways of addressing recurring problems - in short, a shared practice. This comes to play with the idea of shared values. In other terms, shared behaviours. 
+
+## Shared Values
+This is a common value or goal or interest. For example, creativity, technical knowledge.
 
 ## Brokering
 Our identity within a community of practice is actually a co-membership. It is reliant on an alignment in values. However, it is also important to note that values are different from one individual or group to another. 
@@ -25,7 +28,7 @@ So, how can I bring parts of what I've learnt from this community of practice to
 ## 'I heard TALKING IS DANGEROUS by Lauren Lee McCarthy' (2020)
 What was the community of practice in this? McCarthy looked to her domain, and living community as her domain and community of practice. 
 
-HOw can I integrate these thoughts into Assignment Three? What is my drive? What interests to I share or find in this domain practice? 'Interesting!' Is the key word.
+How can I integrate these thoughts into Assignment Three? What is my drive? What interests to I share or find in this domain practice? 'Interesting!' Is the key word.
 
 ### Questions I should think about and document in video:
 - What is my plan?

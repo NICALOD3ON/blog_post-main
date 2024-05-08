@@ -22,3 +22,6 @@ This is where humans take inspirtation of how to do something from the natural w
 - **Transformational:** we are shaped by what the environment has to offer, whilst at the same time we shape the environment. There is also the potential to decompose material rejected by other systems.
 - **Fruiting bodies:** once the mycelium is dense enough, ther eis a fruiting body - it turns into something visible. From a design perspective, this means we are able to learn and grow and then fro this point, we are able to share this knowledge and practice into our environment.
 
+###Websockets API
+This is a way fir a client instance if a websute ti communicate with the server in real time. This is typically use for features like chat boxes that requre instantaneous communication.
+

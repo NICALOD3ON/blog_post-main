@@ -29,10 +29,5 @@ the meaning of **pos** in p5 is position, and **vel** means velocity.
 
 **acc** would refer to acceleration
 
-```ps
-if (pos.y > height - 100) {
-    pos.y - height - 100
-    vel.y *= -1
-    }
-```
+
  

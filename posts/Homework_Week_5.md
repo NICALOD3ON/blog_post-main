@@ -8,6 +8,8 @@ disable_html_sanitization: true
 #### The Phenomenology of Glitch Art
 
 #### Glitch Feminism: Glitch is a Skin
+
+```ps
 <canvas id="glitch_self_portrait"></canvas>
 
 <script type="module">

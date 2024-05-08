@@ -8,6 +8,7 @@ disable_html_sanitization: true
 ###Class Notes 
 script tag - this leads to a file path. the '..' means go out of the current folder, to go into a different folder.
 
+```ps
 <script src="/scripts/c2.js></script>
 <canvas id="c2"/>
 
@@ -114,3 +115,4 @@ function resize() {
 </script>
 
 code from [here] https://c2js.org/examples.html
+```

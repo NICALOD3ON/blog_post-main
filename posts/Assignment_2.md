@@ -228,3 +228,6 @@ let noiseX = noise(frameCount * 0.1) * 20 - 10; // Noise for x position
 However, now I felt as if itwas a bit too fast - not maintaining the little composure I had hoped for. So perhaps I will change the value 0.1 t0 0.05. After doing this, I thought the text would have moved slower, but it moved even faster than before. I now will change it. As I went to make these changes, I realsed that I had entered the value 0.5 instead of 0.05 which explains the unexpectancy. I continued to experiment with different values regardless, and have set noiseX to 0.05 and noiseY to 0.2. This created a composed yet subtle erratic movement in the text.
 
 This is the link to my final sketch: https://editor.p5js.org/NICALOD3ON/full/58ts48b9h
+
+
+

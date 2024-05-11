@@ -1,7 +1,7 @@
 ---
 title: Week 9
 published_at: 2024-05-8
-snippet: Mycelial
+snippet: Mycelial Praxis and understanding Biomimicry
 disable_html_sanitization: true
 ---
 
@@ -12,7 +12,7 @@ disable_html_sanitization: true
 
 Theory of Affordance: The embodied and instrumental and technologicsl components can be understood in terms of the theory of affordances, outlined by the psuchologist James Gibson (1966, 1979)
 
-###Biomimicry
+### Biomimicry
 
 This is where humans take inspirtation of how to do something from the natural world. The natural world has solved problems in material design, where evolution has already solved complex problems, This is what mycelial creativity is. We as designers, mimic or apply that knowledge to our own creative practice. It is often not seen in many creative domains, however, there is an urgency to learn from nature.
 
@@ -26,6 +26,7 @@ This is where humans take inspirtation of how to do something from the natural w
 This is a way fir a client instance if a websute ti communicate with the server in real time. This is typically use for features like chat boxes that requre instantaneous communication.
 
 ### Entangled Life, Sheldrake (2020)
-
+Explained by Katie Field, a professor at the
+University of Leeds, “they soon became dependent on each other.” (Sheldrake, 2020, 4)
 
 

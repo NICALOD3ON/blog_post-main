@@ -229,5 +229,5 @@ However, now I felt as if itwas a bit too fast - not maintaining the little comp
 
 This is the link to my final sketch: https://editor.p5js.org/NICALOD3ON/full/58ts48b9h
 
-
+Thank you for taking the time to read my blog!
 

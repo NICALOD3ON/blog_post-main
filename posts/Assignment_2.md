@@ -18,24 +18,24 @@ When I interpret this into my own words, I see the 'zany' easthetic as one that 
 ####William Latham (Untitled) N.D
 Below depicts one of the first inspirational pieces for me. Created by William Latham, a creative technologist, the work presents itself with jarring shape and textures. It seems course and sharp, as if it were a symbol for pressure, angst, and aggression. However, the negative space affectively resonates with me. It seems that behind the toughness, there is a lonesome void.
 
-![Alt text](<../static/A2/art1.png>)
+![William Latham Artwork](<../static/A2/art1.png>)
 
 ####Kerry Mitchell, Clinamen (2017)
 In this second inspirational work, I admire the artists colour palette of black and white and the pattern it creates. if we look closer, we are also able to see a subtle linear grid - providing the piece with stucture and strength. It is so unified yet so sparratic. It feels as if it embodies the sound of white noise so beautifully. When looking at this visual, it feels very ambient in some way. It feels as if there was a 'melodic disharmony' that would sound unsettling yet grew to become a sense of comfort. Mitchell's work seems like it could be representative of our world - a new life where our world is shaped by the anthropocene. This new, futuristic world comes at the cost of our earth, yet we many privelege the ability to 'turn a blind eye' and live comfortably admist the reality. This work opens up many interpretations and is something I hope to carry out in future design works throughout my practice.
 
-![Alt text](<../static/A2/art2.png>)
+![Kerry Mitchel, Clinamen (2017)](<../static/A2/art2.png>)
 
 ####Desmond Paul Henry, Archives (1965)
 
 One of the many elements I value most in this piece is the power negative space holds within the background as it creates a deep void. However, this void doesn't seem 'fearful' but more so 'beautiful' as it compliments the white web-like structure of the piece. The composition as a whole balances together, affectively presenting organic structures and movement although it is still. When analysing this piece closer, we are able to identify a large variation of small linear fractals side by side to form this structure. It seems so 'chaotic' yet 'put together', this is something I truly find fascinating about Henry's work.
 
-![Alt text](<../static/A2/art3.png>)
+![Desmond Paul Henry, Archives (1965)](<../static/A2/art3.png>)
 
 ####Mathieu St-Pierre, Series: Dorm 2 (2012)
 
 This glitch artist utilises the power the greyscale specturm holds in glitch art. It easily manipulates the evocative feeling and emotion of the piece from something that once had colour and meaning, to something 'gloomy' and almost 'pleading'. Whilst I do not intend to play with illustration, I hope to incorporate St-Pierres horisontal glitch effect. I find inspiration in this element of St-Pierre's work as it aims to distort but not take away meaning or intention of the work.
 
-![Alt text](<../static/A2/art4.png>)
+![Mathieu St-Pierre, Series: Dorm 2 (2012)](<../static/A2/art4.png>)
 
 ### Development & Iteration
 

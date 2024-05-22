@@ -30,3 +30,20 @@ Explained by Katie Field, a professor at the
 University of Leeds, “they soon became dependent on each other.” (Sheldrake, 2020, 4)
 
 
+### HW: Brainstorm Communities of Practice
+
+## The Domain
+my family and friends that are rabbit lovers and have rabbits as pets!
+
+## Repertoire
+We have the shared experience of taking care of them, the fun parts and difficult parts.
+
+## Shared Values
+Playing with and entertaining our rabbits.
+
+## Brokering
+sharing these experiences, tips, and knowledge we have learnt when needed.
+
+what colours can rabbits see and what frequency of sound can they hear (screen record research - add that into the video essay.)
+
+

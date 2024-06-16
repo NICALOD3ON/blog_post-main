@@ -36,3 +36,9 @@ The values we share in this community are that whilst rabbits aren’t easy pets
 
 Therefore, I want to broker these values and experiences from my community of practice to another, by creating a playful  way of communication between rabbits and humans.
 
+
+###Mycelial Praxis
+- **Omnidirectional:** does not respect geographic/cultural/socio-economical/disciplinary divisions. This is the process of growing outwards -- aking the opportunities to learn, even if that means branching out your research like looking at articles, images, or reaching out to your community
+- **Accumalitive:** creative capacity increases incrementally. They are specific, yet there are may of them that constitutes a relationship. From one thing can stem into many other relationships. This is a slow process, and that is simply okay. It is the matter of putting down mycelia. Gradually, it will accumulate and grow. This is the knowledge that we buildthrough this process.
+- **Transformational:** we are shaped by what the environment has to offer, whilst at the same time we shape the environment. There is also the potential to decompose material rejected by other systems.
+
